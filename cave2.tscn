@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://dleyrpcnqolag"]
+
+[ext_resource type="Script" uid="uid://ktgnfcw0141q" path="res://character_body_2d.gd" id="1_0nlp3"]
+[ext_resource type="Texture2D" uid="uid://doo6qt22wryws" path="res://assets/obsticals stuff/small-crystal2.png" id="2_ay0tc"]
+[ext_resource type="Texture2D" uid="uid://vnsg5wjkesfu" path="res://assets/biom stuffs/waterfall.png" id="3_qqswh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kt675"]
+size = Vector2(41, 59)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wsohs"]
+size = Vector2(341.875, 217.25)
+
+[node name="Node2D" type="Node2D" unique_id=1128153461]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1125968709]
+script = ExtResource("1_0nlp3")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=1920360790]
+z_index = 100
+position = Vector2(-362.99994, 28)
+scale = Vector2(0.07989689, 0.052734315)
+texture = ExtResource("2_ay0tc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=507307979]
+position = Vector2(-362.5, 28.5)
+shape = SubResource("RectangleShape2D_kt675")
+
+[node name="Waterfall" type="Sprite2D" parent="." unique_id=1555280252]
+z_index = -1
+scale = Vector2(0.1449129, 0.12521772)
+texture = ExtResource("3_qqswh")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1954622618]
+limit_smoothed = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=408193746]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=1076791823]
+position = Vector2(-409, 231)
+shape = SubResource("RectangleShape2D_wsohs")
