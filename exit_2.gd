@@ -7,4 +7,4 @@ func _ready():
 	
 func _on_body_entered(body):
 	if body.has_method("respawn"):
-		get_tree().change_scene_to_file.call_deferred("res://cave4.tscn")
+		get_tree().change_scene_to_file.call_deferred("res://cave_3.tscn")

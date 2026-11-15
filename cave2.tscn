@@ -14,7 +14,6 @@
 [ext_resource type="Texture2D" uid="uid://d1ngwmxkvg23y" path="res://obsticals stuff/rock3.png" id="12_c0ejd"]
 [ext_resource type="Texture2D" uid="uid://dyvtb1u3rwyv2" path="res://obsticals stuff/grass1.png" id="13_hdk14"]
 [ext_resource type="Script" uid="uid://btqo7bhgsveat" path="res://exit_2.gd" id="14_3su6q"]
-[ext_resource type="Script" uid="uid://catewoffwg4km" path="res://collision_shape_2d.gd" id="15_mw470"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kt675"]
 size = Vector2(41, 59)
@@ -42,17 +41,14 @@ size = Vector2(152.5, 22)
 size = Vector2(110, 6)
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_lt34h"]
-radius = 40.0
-height = 84.0
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_sbffw"]
-size = Vector2(70, 51)
+radius = 29.0
+height = 58.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mw470"]
 size = Vector2(838, 17)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_fw0dh"]
-size = Vector2(22, 246)
+size = Vector2(18, 463)
 
 [node name="Node2D" type="Node2D" unique_id=1128153461]
 
@@ -175,17 +171,17 @@ texture = ExtResource("9_0nlp3")
 position = Vector2(-540, -35)
 shape = SubResource("CapsuleShape2D_lt34h")
 
-[node name="crystals2" type="Area2D" parent="." unique_id=840010800]
+[node name="crystals2" type="Area2D" parent="crystals" unique_id=513000483]
 script = ExtResource("5_6dwh2")
 
-[node name="spikes" type="Sprite2D" parent="crystals2" unique_id=863923344]
-position = Vector2(-134, -125)
+[node name="spikes" type="Sprite2D" parent="crystals/crystals2" unique_id=992221554]
+position = Vector2(-122, -127)
 scale = Vector2(0.07165025, 0.08022182)
 texture = ExtResource("9_0nlp3")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="crystals2" unique_id=1424995854]
-position = Vector2(-134, -128.5)
-shape = SubResource("RectangleShape2D_sbffw")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="crystals/crystals2" unique_id=585281582]
+position = Vector2(-124, -128)
+shape = SubResource("CapsuleShape2D_lt34h")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1128029715]
 position = Vector2(-594, -100.99999)
@@ -264,10 +260,9 @@ position = Vector2(571, 166.99998)
 scale = Vector2(0.4167641, 0.34738195)
 texture = ExtResource("13_hdk14")
 
-[node name="Exit1" type="Area2D" parent="." unique_id=1484191076]
+[node name="exit2" type="Area2D" parent="." unique_id=1484191076]
 script = ExtResource("14_3su6q")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Exit1" unique_id=1546725918]
-position = Vector2(584, -226)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="exit2" unique_id=1546725918]
+position = Vector2(586, -334)
 shape = SubResource("RectangleShape2D_fw0dh")
-script = ExtResource("15_mw470")

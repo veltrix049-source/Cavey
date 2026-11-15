@@ -7,9 +7,9 @@
 [ext_resource type="Texture2D" uid="uid://bswqlph5mvge1" path="res://obsticals stuff/beam.png" id="5_v33mg"]
 [ext_resource type="Texture2D" uid="uid://dhnunqihs1jty" path="res://obsticals stuff/cliff.png" id="6_k3xxb"]
 [ext_resource type="Texture2D" uid="uid://dxi143cyeficq" path="res://obsticals stuff/moving-platform.png" id="7_24ijl"]
-[ext_resource type="Script" uid="uid://bgpbhoj51kysl" path="res://crystal_2.gd" id="8_hu0w4"]
 [ext_resource type="Texture2D" uid="uid://bc6piifs7xyu7" path="res://obsticals stuff/small crystal.png" id="8_sbffw"]
-[ext_resource type="Script" uid="uid://btqo7bhgsveat" path="res://exit_2.gd" id="10_vtmit"]
+[ext_resource type="Script" uid="uid://cohygkqnnbdrh" path="res://spikes.gd" id="10_jduu5"]
+[ext_resource type="Script" uid="uid://bnqbvw0x2mflg" path="res://exit_3.gd" id="10_vtmit"]
 [ext_resource type="Script" uid="uid://catewoffwg4km" path="res://collision_shape_2d.gd" id="11_jduu5"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_v33mg"]
@@ -19,7 +19,7 @@ size = Vector2(41, 59)
 size = Vector2(222.5, 20.5)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3su6q"]
-size = Vector2(46, 11)
+size = Vector2(18, 31)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_24ijl"]
 size = Vector2(161, 23)
@@ -27,11 +27,11 @@ size = Vector2(161, 23)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kt675"]
 size = Vector2(90, 13)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_mw470"]
-size = Vector2(21, 29)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jduu5"]
+size = Vector2(18, 463)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_f6kdx"]
-size = Vector2(22, 246)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wsohs"]
+size = Vector2(23, 37)
 
 [node name="cave3" type="Node2D" unique_id=1064527633]
 
@@ -76,7 +76,7 @@ scale = Vector2(0.5819625, 0.43023816)
 texture = ExtResource("5_v33mg")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="platform2" unique_id=118333884]
-position = Vector2(-234, 42.5)
+position = Vector2(-235.5, 42)
 shape = SubResource("RectangleShape2D_3su6q")
 
 [node name="platform3" type="StaticBody2D" parent="." unique_id=407904477]
@@ -123,34 +123,34 @@ texture = ExtResource("7_24ijl")
 position = Vector2(383, 57)
 shape = SubResource("RectangleShape2D_kt675")
 
-[node name="crystal2" type="Area2D" parent="." unique_id=413440609]
-script = ExtResource("8_hu0w4")
-
-[node name="platform1" type="Sprite2D" parent="crystal2" unique_id=788660411]
-position = Vector2(417, 48.000004)
-scale = Vector2(0.04688329, 0.030486222)
-texture = ExtResource("8_sbffw")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="crystal2" unique_id=548933398]
-position = Vector2(415.5, 48.5)
-shape = SubResource("RectangleShape2D_mw470")
-
-[node name="crystal3" type="Area2D" parent="." unique_id=1841867424]
-script = ExtResource("8_hu0w4")
-
-[node name="platform1" type="Sprite2D" parent="crystal3" unique_id=969558950]
-position = Vector2(525, 157)
-scale = Vector2(0.04688329, 0.030486222)
-texture = ExtResource("8_sbffw")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="crystal3" unique_id=1462994167]
-position = Vector2(525, 156)
-shape = SubResource("RectangleShape2D_mw470")
-
-[node name="Exit1" type="Area2D" parent="." unique_id=592769915]
+[node name="exit3" type="Area2D" parent="." unique_id=1675953104]
 script = ExtResource("10_vtmit")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Exit1" unique_id=180781112]
-position = Vector2(584, 49)
-shape = SubResource("RectangleShape2D_f6kdx")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="exit3" unique_id=355919539]
+position = Vector2(583, -56)
+shape = SubResource("RectangleShape2D_jduu5")
 script = ExtResource("11_jduu5")
+
+[node name="crystals3" type="Area2D" parent="." unique_id=379952271]
+script = ExtResource("10_jduu5")
+
+[node name="spikes" type="Sprite2D" parent="crystals3" unique_id=297014345]
+position = Vector2(420, 41.749996)
+scale = Vector2(0.04597702, 0.036621083)
+texture = ExtResource("8_sbffw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="crystals3" unique_id=361032847]
+position = Vector2(419, 42)
+shape = SubResource("RectangleShape2D_wsohs")
+
+[node name="crystals4" type="Area2D" parent="." unique_id=1379561556]
+script = ExtResource("10_jduu5")
+
+[node name="spikes" type="Sprite2D" parent="crystals4" unique_id=1043479196]
+position = Vector2(518, 158)
+scale = Vector2(0.04597702, 0.036621083)
+texture = ExtResource("8_sbffw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="crystals4" unique_id=1029555061]
+position = Vector2(515, 157)
+shape = SubResource("RectangleShape2D_wsohs")

@@ -7,7 +7,6 @@
 [ext_resource type="Texture2D" uid="uid://cq3v255qo5c4j" path="res://obsticals stuff/very-small-long-platform.png" id="5_tkecb"]
 [ext_resource type="Texture2D" uid="uid://c0ygwu88f37fe" path="res://obsticals stuff/very-small-platform.png" id="6_uo0c5"]
 [ext_resource type="Texture2D" uid="uid://dxi143cyeficq" path="res://obsticals stuff/moving-platform.png" id="7_taqrc"]
-[ext_resource type="Script" uid="uid://bgpbhoj51kysl" path="res://crystal_2.gd" id="8_wsqum"]
 [ext_resource type="Texture2D" uid="uid://bc6piifs7xyu7" path="res://obsticals stuff/small crystal.png" id="9_hrgw0"]
 [ext_resource type="Script" uid="uid://cohygkqnnbdrh" path="res://spikes.gd" id="10_enyce"]
 [ext_resource type="Texture2D" uid="uid://c8ixb1tkgendb" path="res://obsticals stuff/spikes.png" id="11_03dy5"]
@@ -119,7 +118,6 @@ position = Vector2(473, -45.5)
 shape = SubResource("RectangleShape2D_bbh66")
 
 [node name="crystal3" type="Area2D" parent="." unique_id=1638031931]
-script = ExtResource("8_wsqum")
 
 [node name="platform1" type="Sprite2D" parent="crystal3" unique_id=1259797504]
 position = Vector2(507, -53)
@@ -128,18 +126,6 @@ texture = ExtResource("9_hrgw0")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="crystal3" unique_id=2008976302]
 position = Vector2(506.75, -52.25)
-shape = SubResource("RectangleShape2D_tm8fj")
-
-[node name="crystal4" type="Area2D" parent="." unique_id=1656420724]
-script = ExtResource("8_wsqum")
-
-[node name="platform1" type="Sprite2D" parent="crystal4" unique_id=1444471529]
-position = Vector2(-40.690872, -169.09776)
-scale = Vector2(0.050992846, 0.029105924)
-texture = ExtResource("9_hrgw0")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="crystal4" unique_id=904834685]
-position = Vector2(-40.125, -168.125)
 shape = SubResource("RectangleShape2D_tm8fj")
 
 [node name="spikes" type="Area2D" parent="." unique_id=500159274]
@@ -305,13 +291,13 @@ shape = SubResource("RectangleShape2D_kt675")
 script = ExtResource("10_enyce")
 
 [node name="spikes" type="Sprite2D" parent="spikes9" unique_id=359113233]
-position = Vector2(554, 70.000015)
+position = Vector2(563.48315, 76.99949)
 rotation = -1.5707964
-scale = Vector2(0.10875613, 0.07025128)
+scale = Vector2(0.09508528, 0.04700826)
 texture = ExtResource("11_03dy5")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="spikes9" unique_id=525535307]
-position = Vector2(570, 75)
+position = Vector2(580, 79)
 shape = SubResource("RectangleShape2D_wsohs")
 
 [node name="platform5" type="StaticBody2D" parent="." unique_id=1199247775]
