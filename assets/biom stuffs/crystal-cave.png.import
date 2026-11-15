@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dwkkmdeye3ni4"
-path="res://.godot/imported/moving-platform.png-418ba4b0696880605fec37caa6a8938a.ctex"
+uid="uid://p7n2s7u0kbet"
+path="res://.godot/imported/crystal-cave.png-ecdf6f6bda990e896e3ae8439925a4d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/obsticals stuff/moving-platform.png"
-dest_files=["res://.godot/imported/moving-platform.png-418ba4b0696880605fec37caa6a8938a.ctex"]
+source_file="res://assets/biom stuffs/crystal-cave.png"
+dest_files=["res://.godot/imported/crystal-cave.png-ecdf6f6bda990e896e3ae8439925a4d8.ctex"]
 
 [params]
 

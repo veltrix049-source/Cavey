@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ca6hwvrgmnwfc"
-path="res://.godot/imported/very-small-long-platform.png-ce1794a9a2333062ee8425733684a787.ctex"
+uid="uid://c0ygwu88f37fe"
+path="res://.godot/imported/very-small-platform.png-115119b8166304b9beed26932b0222e9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/obsticals stuff/very-small-long-platform.png"
-dest_files=["res://.godot/imported/very-small-long-platform.png-ce1794a9a2333062ee8425733684a787.ctex"]
+source_file="res://obsticals stuff/very-small-platform.png"
+dest_files=["res://.godot/imported/very-small-platform.png-115119b8166304b9beed26932b0222e9.ctex"]
 
 [params]
 

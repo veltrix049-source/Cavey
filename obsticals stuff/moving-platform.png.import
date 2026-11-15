@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddkweepw5pvt3"
-path="res://.godot/imported/medium platform.png-df5f2a9db4033d1f388de72d77235745.ctex"
+uid="uid://dxi143cyeficq"
+path="res://.godot/imported/moving-platform.png-4f1967c935012525ecc2e06799cfda51.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/obsticals stuff/medium platform.png"
-dest_files=["res://.godot/imported/medium platform.png-df5f2a9db4033d1f388de72d77235745.ctex"]
+source_file="res://obsticals stuff/moving-platform.png"
+dest_files=["res://.godot/imported/moving-platform.png-4f1967c935012525ecc2e06799cfda51.ctex"]
 
 [params]
 

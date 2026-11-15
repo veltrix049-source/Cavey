@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://l7ywxmsgti7b"
-path="res://.godot/imported/bigplatform.png-83ed66b8999b5980aeab1e25d10502cd.ctex"
+uid="uid://bd3vlqctexuaf"
+path="res://.godot/imported/glass2.png-052a5d8605fb03f625748da33d4a3c67.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/obsticals stuff/bigplatform.png"
-dest_files=["res://.godot/imported/bigplatform.png-83ed66b8999b5980aeab1e25d10502cd.ctex"]
+source_file="res://obsticals stuff/glass2.png"
+dest_files=["res://.godot/imported/glass2.png-052a5d8605fb03f625748da33d4a3c67.ctex"]
 
 [params]
 

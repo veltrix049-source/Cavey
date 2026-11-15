@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://doo6qt22wryws"
-path="res://.godot/imported/small-crystal2.png-232d75224896f43cf5734ddada37409a.ctex"
+uid="uid://bk68b52850cjr"
+path="res://.godot/imported/1000163640.jpg-d35fcf236435b29db8d55564eb29fd85.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/obsticals stuff/small-crystal2.png"
-dest_files=["res://.godot/imported/small-crystal2.png-232d75224896f43cf5734ddada37409a.ctex"]
+source_file="res://assets/biom stuffs/1000163640.jpg"
+dest_files=["res://.godot/imported/1000163640.jpg-d35fcf236435b29db8d55564eb29fd85.ctex"]
 
 [params]
 

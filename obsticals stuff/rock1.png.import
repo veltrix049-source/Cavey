@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dq651ceok1s75"
-path="res://.godot/imported/small-platform.png-2d995083262eb75b500300316adc0268.ctex"
+uid="uid://dkok4vg166alr"
+path="res://.godot/imported/rock1.png-b2fdc97d00cf93225b25c9ffa2f8993f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/obsticals stuff/small-platform.png"
-dest_files=["res://.godot/imported/small-platform.png-2d995083262eb75b500300316adc0268.ctex"]
+source_file="res://obsticals stuff/rock1.png"
+dest_files=["res://.godot/imported/rock1.png-b2fdc97d00cf93225b25c9ffa2f8993f.ctex"]
 
 [params]
 

@@ -2,10 +2,10 @@
 
 [ext_resource type="Script" uid="uid://ktgnfcw0141q" path="res://character_body_2d.gd" id="1_epypp"]
 [ext_resource type="Texture2D" uid="uid://vnsg5wjkesfu" path="res://assets/biom stuffs/waterfall.png" id="1_wtcfe"]
-[ext_resource type="Texture2D" uid="uid://doo6qt22wryws" path="res://assets/obsticals stuff/small-crystal2.png" id="2_0hol4"]
-[ext_resource type="Texture2D" uid="uid://ddkweepw5pvt3" path="res://assets/obsticals stuff/medium platform.png" id="4_kdubu"]
-[ext_resource type="Texture2D" uid="uid://l7ywxmsgti7b" path="res://assets/obsticals stuff/bigplatform.png" id="5_d21ai"]
-[ext_resource type="Texture2D" uid="uid://dq651ceok1s75" path="res://assets/obsticals stuff/small-platform.png" id="6_rj586"]
+[ext_resource type="Texture2D" uid="uid://c613vvveybxja" path="res://obsticals stuff/small-crystal2.png" id="2_kdubu"]
+[ext_resource type="Texture2D" uid="uid://mmd857uru68x" path="res://obsticals stuff/medium platform.png" id="4_4d7sh"]
+[ext_resource type="Texture2D" uid="uid://c0f6pg4ceusgx" path="res://obsticals stuff/bigplatform.png" id="5_ir8iy"]
+[ext_resource type="Texture2D" uid="uid://cx3u8ujf82cmj" path="res://obsticals stuff/small-platform.png" id="6_hqns4"]
 [ext_resource type="Script" uid="uid://cdpy1i8i2c8me" path="res://death_zone.gd" id="7_d21ai"]
 [ext_resource type="Script" uid="uid://cxyx3jk5nn0i7" path="res://exit_1.gd" id="8_4d7sh"]
 [ext_resource type="Script" uid="uid://catewoffwg4km" path="res://collision_shape_2d.gd" id="9_ir8iy"]
@@ -34,7 +34,7 @@ size = Vector2(1189.25, 16)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vjq37"]
 size = Vector2(20, 250)
 
-[node name="Node2D" type="Node2D" unique_id=1128153461]
+[node name="cave1" type="Node2D" unique_id=1128153461]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1125968709]
 script = ExtResource("1_epypp")
@@ -43,7 +43,7 @@ script = ExtResource("1_epypp")
 z_index = 100
 position = Vector2(-362.99994, 28)
 scale = Vector2(0.07989689, 0.052734315)
-texture = ExtResource("2_0hol4")
+texture = ExtResource("2_kdubu")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=507307979]
 position = Vector2(-362.5, 28.5)
@@ -82,7 +82,7 @@ shape = SubResource("RectangleShape2D_bbh66")
 [node name="platform1" type="Sprite2D" parent="platform" unique_id=259650227]
 position = Vector2(-104.99999, 114)
 scale = Vector2(0.1694336, 0.2198485)
-texture = ExtResource("4_kdubu")
+texture = ExtResource("4_4d7sh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="platform" unique_id=463177687]
 position = Vector2(-109.5, 126)
@@ -93,7 +93,7 @@ shape = SubResource("RectangleShape2D_b45qc")
 [node name="platform1" type="Sprite2D" parent="platform2" unique_id=919500175]
 position = Vector2(57.999996, 55)
 scale = Vector2(0.15307617, 0.19670111)
-texture = ExtResource("5_d21ai")
+texture = ExtResource("5_ir8iy")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="platform2" unique_id=119510786]
 position = Vector2(57, -26)
@@ -104,7 +104,7 @@ shape = SubResource("RectangleShape2D_rj586")
 [node name="platform1" type="Sprite2D" parent="platform3" unique_id=1561215774]
 position = Vector2(198.15623, 135.76703)
 scale = Vector2(0.09149172, 0.083759226)
-texture = ExtResource("6_rj586")
+texture = ExtResource("6_hqns4")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="platform3" unique_id=989208908]
 position = Vector2(199.5, 139)
