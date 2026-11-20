@@ -14,6 +14,10 @@ func _physics_process(delta):
 		velocity.y= JUMP_VELOCITY
 	var direction = Input.get_axis("ui_left","ui_right")
 	velocity.x = direction * SPEED
+	if direction<0:
+		$Sprite2D.flip_h = true
+	elif direction>0:
+		$Sprite2D.flip_h = false
 	
 	move_and_slide()
 	if global_position.y > FALL_LIMIT:

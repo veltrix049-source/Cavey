@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://ktgnfcw0141q" path="res://character_body_2d.gd" id="1_epypp"]
 [ext_resource type="Texture2D" uid="uid://vnsg5wjkesfu" path="res://assets/biom stuffs/waterfall.png" id="1_wtcfe"]
-[ext_resource type="Texture2D" uid="uid://c613vvveybxja" path="res://obsticals stuff/small-crystal2.png" id="2_kdubu"]
+[ext_resource type="Texture2D" uid="uid://d1ujktvwg85tg" path="res://assets/character stuff/character.png" id="2_4d7sh"]
 [ext_resource type="Texture2D" uid="uid://mmd857uru68x" path="res://obsticals stuff/medium platform.png" id="4_4d7sh"]
 [ext_resource type="Texture2D" uid="uid://c0f6pg4ceusgx" path="res://obsticals stuff/bigplatform.png" id="5_ir8iy"]
 [ext_resource type="Texture2D" uid="uid://cx3u8ujf82cmj" path="res://obsticals stuff/small-platform.png" id="6_hqns4"]
@@ -10,8 +10,8 @@
 [ext_resource type="Script" uid="uid://cxyx3jk5nn0i7" path="res://exit_1.gd" id="8_4d7sh"]
 [ext_resource type="Script" uid="uid://catewoffwg4km" path="res://collision_shape_2d.gd" id="9_ir8iy"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_kt675"]
-size = Vector2(41, 59)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_taqrc"]
+size = Vector2(62, 38)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wsohs"]
 size = Vector2(341.875, 217.25)
@@ -42,12 +42,12 @@ script = ExtResource("1_epypp")
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=1920360790]
 z_index = 100
 position = Vector2(-362.99994, 28)
-scale = Vector2(0.07989689, 0.052734315)
-texture = ExtResource("2_kdubu")
+scale = Vector2(0.02, 0.02)
+texture = ExtResource("2_4d7sh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D" unique_id=507307979]
-position = Vector2(-362.5, 28.5)
-shape = SubResource("RectangleShape2D_kt675")
+position = Vector2(-363, 26)
+shape = SubResource("RectangleShape2D_taqrc")
 
 [node name="Waterfall" type="Sprite2D" parent="." unique_id=1555280252]
 z_index = -1
